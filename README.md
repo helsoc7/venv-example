@@ -15,7 +15,7 @@ source <Name der venv>/bin/activate
 ```
 Windows in Git Bash
 ```bash
-source <Name der venv>\Scripts\Activate
+source <Name der venv>/Scripts/Activate
 ```
 - Achtung nach de Aktivieren befindet sich im Terminal vor dem Command Prompt der Name der venv in ().
 4. Installiere dir die Abhängigkeiten, die du brauchst für das Projekt mit dem Befehl `pip install <Paketname>`. Das Ganze kannst du dann überprüfen, indem du ein `pip list` ausführst und siehst, welche Pakete nun in deiner venv drin sind.
