@@ -17,7 +17,7 @@ Windows in Git Bash
 ```bash
 <Name der venv>\Scripts\Activate
 ```
-Achtung nach de Aktivieren befindet sich im Terminal vor dem Command Prompt der Name der venv in ().
+- Achtung nach de Aktivieren befindet sich im Terminal vor dem Command Prompt der Name der venv in ().
 4. Deaktiviere die venv im Zweifel mit dem Befehl `deactivate`
 5. Installiere dir die Abhängigkeiten, die du brauchst für das Projekt mit dem Befehl `pip install <Paketname>`. Das Ganze kannst du dann überprüfen, indem du ein `pip list` ausführst und siehst, welche Pakete nun in deiner venv drin sind.
 6. Wir wollen natürlich nicht in einem Git-Repository den Ordner der venv mit pushen. Daher legen wir uns mit `touch .gitignore` eine Datei an, in der wir explizit angeben, dass der Ordner ignoriert werden soll bei der git-Versionierung. 
