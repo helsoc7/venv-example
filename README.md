@@ -21,7 +21,7 @@ source <Name der venv>/Scripts/Activate
 4. Installiere dir die Abhängigkeiten, die du brauchst für das Projekt mit dem Befehl `pip install <Paketname>`. Das Ganze kannst du dann überprüfen, indem du ein `pip list` ausführst und siehst, welche Pakete nun in deiner venv drin sind.
 5. Wir wollen natürlich nicht in einem Git-Repository den Ordner der venv mit pushen. Daher legen wir uns mit `touch .gitignore` eine Datei an, in der wir explizit angeben, dass der Ordner ignoriert werden soll bei der git-Versionierung. 
 ```bash
-cat "<Name der venv>" >> .gitignore
+echo "<Name der venv>" >> .gitignore
 ```
 6. Damit wir aber dennoch die Abhängigkeiten dokumentieren können, erstellen wir mit folgenden Befehl eine Datei, wo diese drin sind.
 ```bash
